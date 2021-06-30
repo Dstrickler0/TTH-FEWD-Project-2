@@ -1,0 +1,195 @@
+* {
+    font-family:Roboto;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.6;
+    justify-content: center;
+    
+}
+
+img{
+margin-top: 1rem;
+max-width: 95%;
+
+}
+
+#pfp{
+height: 100%;
+width: 100%;
+margin-top: 50px;
+border-radius: 50%;
+}
+
+#intro{
+    font-weight: 500;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    font-weight:100;
+}
+#portfolio{
+    font-weight: 900;
+    margin-bottom: 2rem;
+    font-size: 110%;
+}
+
+#phone{
+font-weight: 500;
+}
+.phone{
+display:inline-flex;
+font-weight: 500;
+flex-wrap: nowrap;
+}
+
+#phonenum{
+    font-weight: 500;
+    margin-left: 1em;    
+
+}
+#contacthead{
+margin-top: 5rem;
+font-weight: 900;
+}
+
+#contact{
+    font-weight: 500;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+font-size: 90%;
+justify-content: center;
+}
+
+.email{
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+#email{
+    justify-content: center;
+    font-weight: 300;
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+#address{
+    font-weight: 500;
+    
+}
+
+#footer{
+display: flex;
+justify-content:space-between;
+flex-wrap: nowrap;
+font-size:85%;
+}
+.bottom{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    
+.home{
+            display:flex;
+            flex-flow: row;
+    }
+#nav1,#nav2,#nav3{
+            margin:auto;
+            justify-content: center;
+}
+.intropfp{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: auto;
+    text-align: left;
+    justify-content: space-evenly;
+}
+ .container{
+     display: inline-flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+#item1,#item2,#item3,#item4,#item5,#item6{
+width: 40vw;
+flex-basis: 1;
+padding: 0px 5px 0px 5px ;
+}
+    P{
+    text-align:center;
+}
+    .phone{
+     display:inline-flexbox;
+
+    }
+    .email{
+        display: inline-flexbox;
+    }
+    #back_to_top{
+        display: none;
+    }
+    .bottom{
+        display: flex;
+        justify-content: flex-end;
+    }
+    #nav4,#nav5,#nav6{
+        display: flex;
+        margin: 5%;
+        align-content: flex-end;
+    }
+    #contact{
+        display: flex;
+        justify-content:center;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    #name{
+      float:left;
+      padding-bottom:30px;
+      margin-left: 5%;
+    }
+    .home{
+        display:flex;
+         float:right;
+         justify-content:space-around;
+         padding:10px;
+    }
+         #nav1,#nav2,#nav3{
+            margin:0px 10px 0px 10px;
+            justify-content: center;
+             }
+      .intropfp{
+          display: inline-flex;
+          flex-basis: 1;
+          text-align: left;
+          justify-content: space-between;
+      }    
+     
+      #intro{ 
+        float: left; 
+        align-self:flex-start;
+      margin-bottom: 200px;
+      margin-right: 200px;
+      }  
+    .container{
+        flex-wrap: wrap;
+        justify-content:baseline;
+        flex-grow: 1;
+        }
+        #item1,#item2,#item3,#item4,#item5,#item6{
+            width:25vw;
+            flex-basis: auto;
+            padding: 0px 5px 0px 5px;
+        }
+        img{
+          max-width:25vw;  
+        }
+
+    .bottom{
+        display: flex;
+    }
+
+}
