@@ -113,19 +113,12 @@ font-size:85%;
  }
 #item1,#item2,#item3,#item4,#item5,#item6{
 width: 40vw;
-flex-basis: 1;
 padding: 0px 5px 0px 5px ;
 }
     P{
     text-align:center;
 }
-    .phone{
-     display:inline-flexbox;
-
-    }
-    .email{
-        display: inline-flexbox;
-    }
+    
     #back_to_top{
         display: none;
     }
@@ -163,7 +156,6 @@ padding: 0px 5px 0px 5px ;
              }
       .intropfp{
           display: inline-flex;
-          flex-basis: 1;
           text-align: left;
           justify-content: space-between;
       }    
